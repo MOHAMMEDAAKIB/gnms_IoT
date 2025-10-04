@@ -26,23 +26,6 @@ This IoT integration enables automatic attendance tracking for Grama Sevaka offi
 | Active Buzzer | 1 | Audio feedback |
 | Old Display | 1 | Future status display |
 
-## 📁 Folder Structure
-
-```
-iot-integration/
-├── esp32-code/
-│   ├── gs_attendance_nfc.ino              # Updated for PN532
-│   ├── gs_attendance_nfc_v2.ino           # Production-ready code  
-│   ├── gs_attendance_pn532_minimal.ino    # Minimal setup version
-│   ├── config.h                           # Configuration file
-│   └── libraries_required.md              # Library installation guide
-├── diagrams/
-│   └── wiring_diagram.md                  # PN532 wiring instructions
-├── documentation/
-│   └── setup_guide.md                     # Complete setup guide
-└── README.md                              # This file
-```
-
 ## 🚀 Quick Start
 
 ### 1. Hardware Setup (Minimal - Only 4 wires!)
